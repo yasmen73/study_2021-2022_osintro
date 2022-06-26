@@ -1,0 +1,2 @@
+tar -cf lab101.tar lab101
+mv lab101.tar ~/backup

@@ -1,0 +1,6 @@
+count =1
+for i
+do
+echo "$count: $i"
+count=$((count+1))
+done

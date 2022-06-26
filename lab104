@@ -1,0 +1,5 @@
+echo Input
+read dir
+echo Input a file format
+read format
+find $dir -maxdepth 1 -name "*$format" -type f| wc -l
